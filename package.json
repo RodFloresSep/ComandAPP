@@ -1,0 +1,21 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^36.2.1"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.13.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.6",
+    "firebase": "^11.8.1"
+  }
+}

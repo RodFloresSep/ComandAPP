@@ -1,0 +1,100 @@
+.BG {
+    background-color: #beabab88;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #beabab88;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.card2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card3 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 48%;
+    height: 250px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.card3-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#botonAtras {
+    background-color: #a38e8e88;
+
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#botones2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    transform: scale(1.1);
+}
+
+
+#TextoP {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.listaProductos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+#botones3 {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    transform: scale(1.1);
+    margin-top: 10px;
+}
